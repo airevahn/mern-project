@@ -1,0 +1,31 @@
+Express:
+1. NPM init (to follow the setup process) -> create package.json
+2. add dependencies (using npm install)
+    npm install express mongoose body-parser bcryptjs validation config cors
+3. add app.js to create the basic express js instance
+4. modify package.json file to include app.js and change the script route
+
+Mongo: (using atlas)
+1. Create a new project
+2. Create a new database cluster 
+3. Create Config folder, and add default.json and db.js.
+4. Update app.js.
+
+Create Routes:
+1. Create routes folder -> books.js -> routes
+2. Craete models folder -> book.js -> database model
+
+Create Frontend (React):
+1. npx create-react-app my-app (The project name must be in lowercase letters)
+2. edit public/index.html 
+3. npm install react-router-dom axios
+4. create src/components
+    touch CreateBook.js
+    touch ShowBookList.js
+    touch BookCard.js
+    touch ShowBookDetails.js
+    touch UpdateBookInfo.js
+5. Replace app.js in frontend-react/src/app.js -> defining react routes
+6. Update app.css
+
+Connect Frontend to Backend
