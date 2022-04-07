@@ -1,11 +1,12 @@
 // app.js
 
 const express = require('express');
-const connectDB = require('./config/db'); // updated after DB created
+const connectDB = require('./config/db');
 var cors = require('cors');
 
-// Routes
+// routes
 const books = require('./routes/api/books');
+
 const app = express();
 
 // Connect Database
